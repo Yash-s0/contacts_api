@@ -6,28 +6,28 @@ _____
 
 - Clone this repository
     ```
-    $ git clone https://github.com/Yash-s0/contacts_api.git
+    git clone https://github.com/Yash-s0/contacts_api.git
     ```
 - Change Directory
     ```
-    $ cd contacts_api
+    cd contacts_api
     ```
 - Create env
     ```
-    $ python3 -m venv env
+    python3 -m venv env
     ```
 - Activate env
     ```
-    $ source env/bin/activate
+    source env/bin/activate
     ```
 - Install the requirements
     ``` 
-    $ pip install -r requirements.txt
+    pip install -r requirements.txt
     ```
 
 - Run the API
     ``` 
-    $ uvicorn main:app --reload
+    uvicorn main:app --reload
     ```
 ___
     
